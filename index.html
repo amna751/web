@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav a {
+    color: #fff;
+    text-decoration:none;
+}
+header nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hero {
+    background-image: url(jake-weirick-mwXtmsTGlzE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font: size 24px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.destinations {
+    padding: 2em;
+}
+
+.destinations ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destinations li {
+    margin: 20px;
+}
+
+.destinations img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+    color: #333;
+}
+button:hover{
+    background-color: rgb(134, 197, 176);
+    transition: .4s ease;
+}
+
+.contact{
+    padding: 2em;
+    background-color: #f7f7f7;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+.contact button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+    </style>
+    <div class="logo">
+        <img src="logo.jpg"
+        width="10%" height="10%">
+    </div>
+    <header>
+         <nav  class="menu">
+            <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            
+        
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+        <h1>Welcome to our travel website</h1>
+      <i> <b><p>Explore the world's most beautiful places</p></b></i>
+        <button>Learn more</button>
+        </section>
+        <section id="destinations" class="destinations">
+           <h2>Popular Destinations</h2>
+           <ul>
+            <li>
+                <h3>Paris,France</h3>
+                <img src="NewYork.jpg" alt="Paris"
+                width="400" height="400"> </li>
+            <li>
+                <h3>Tokyo,Japan</h3>
+                <img src="Tokyo.jpg" alt="Tokyo"
+                width="400" height="400"> </li>
+            <li>
+                <h3>Newyork,USA</h3>
+                <img src="NewYork.jpg" alt="Newyork"
+                width="400" height="400"> </li>
+            <li>
+                <h3>Bangkok,Thailand</h3>
+                <img src="BangKok.jpg" alt="Bangkok"
+                width="400" height="400">
+            </li>
+            <li>
+                <h3>Rio de janeiro,Brazil</h3>
+                <img src="Brazil.jpg" alt="Brazil"
+                width="400" height="400">
+            </li>
+            <li>
+                <h3>Rome,Italy</h3>
+                <img src="Rome.jpg" alt="Italy"
+                width="400" height="400">
+            </li>
+           </ul>
+        </section>
+        <section id="Contact" class="Contact"></section>
+        <h2>Get in touch</h2>
+        <form>
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+            <button>Send</button>
+        </form>
+    </main>
+</body>
+</html>
