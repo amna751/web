@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devicw-width, initial-scale=1.0">
+        <title>recipe</title>
+    </head>
+    <style>
+        * {
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-color: #ddd2be;
+            color: black;
+            line-height: 1.6;
+        }
+        .container{
+            max-width: 900px;
+            margin: 0; padding: 20px;
+        }
+        header{
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(255,255,255,0.9);
+         background-size: cover;
+         border-radius: 10px;
+         margin-bottom: 30px;
+         box-shadow: 0 3px 10px;
+        }
+        h1{
+            color: #2c3e50;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .tagline {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .recipe-info{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .info-item{
+            background: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: 0 3px 8px ;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .info-item i{
+            color: #e74c3c;
+            font-size: 1.2rem;
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .card{
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px;
+        }
+        ul{
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        li{
+            margin-bottom: 12px;
+            padding-left: 5px;
+        }
+        .ingredient-list li{
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px;
+        }
+        .pasta-image {
+            width: 80%; height: 100%;
+            border-radius: 10px;
+            padding-left: 300px;
+            box-shadow: 0 5px 15px;
+        }
+
+    </style>
+    <body>
+        <div class="container">
+        <header>
+            <h1>Alfredo Pasta</h1>
+            <p class="tagline">Creamy,delicious and saucy <b>Bechamel sauce!</b></p>
+
+            <div class="recipe-info">
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Prep: 10mins</span>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="card">
+                <h2><i class="fas fa-shopping"></i>Ingredients</h2>
+                 
+                <ul class="ingredient-list">
+                    <li>Pasta 250g</li>
+                    <li>Water for boiling  2Litr</li>
+                    <li>salt   1tbsp</li>
+                    <li>Butter  3tbsp</li>
+                    <li>All-purpose Flour  3tbsp</li>
+                    <li>Milk (full cream)</li>
+                    <li>Garlic (minced)   3-4 cloves</li>
+                    <li>Black pepper powder    1tsp</li>
+                    <li>Dried oregano   1tsp</li>
+                    <li>Chili Flakes   1/2tsp</li>
+                    <li>Grated cheese   1/2cup</li>
+                </ul>
+
+                
+            </div>
+        </div>
+         
+        <img src="C:\Users\user\Downloads\high-protein-pasta-meal-close-up-detail.jpg" class="pasta-image">
+    
+        </div>
+    </body>
+
+</html>
