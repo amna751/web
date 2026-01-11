@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        .menu{
+    display: flex;
+    color: antiquewhite;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+body{
+    background-color: rgb(35, 35, 35);
+}
+.item{
+    width: 200px; 
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s; box-shadow:  0.3s;
+}
+.item:hover{
+    transform: translate(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.item img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.item h3{
+    margin: 15px 0 5px;
+    color: antiquewhite;
+    font-size: 18px;
+}
+.item p{
+    margin: 0 0 15px;
+    color: #cfc7c7;
+    padding: 0 10px;
+}
+.price{
+    font-weight: bold;
+    color: #e67e22;
+    display: block;
+    margin-bottom: 10px;
+}
+
+    </style>
+    <div class="menu">
+        <h2>Our menu</h2>
+    <div class="item">
+    <img src="C:\Users\user\OneDrive\Desktop\own web\delicious-vegan-burger-presentation.jpg"  alt="Burger" >   
+    <h3>Burger</h3>
+    <p>Juicy Beef Burger with toppings.  PKR 500</p>
+    </div>
+    <div class="item">
+    <img src="C:\Users\user\OneDrive\Desktop\own web\pepperoni-pizza-with-tomato-cheese.jpg" alt="Pizza">
+    <h3>Pizza</h3>
+    <p>Cheesy pepperoni pizza. PKR 1000</p>
+    </div>
+    <div class="item">
+        <img src="C:\Users\user\OneDrive\Desktop\own web\pixzolo-photography-8YBHgP0WrEo-unsplash.jpg" alt="Fries">
+        <h3>French Fries</h3>
+        <p>Crispy French Fries.  PKR 300</p>
+    </div>
+    <div class="item">
+        <img src="C:\Users\user\OneDrive\Desktop\own web\pixzolo-photography-BiWb1Y8wpZk-unsplash.jpg" alt="Sandwich">
+        <h3>Club Sandwich</h3>
+        <p>Club Sandwich.  PKR 700</p>
+    </div>
+    <div class="item">
+        <img src="C:\Users\user\OneDrive\Desktop\own web\coffeefy-workafe-Y0zbn9lPCEU-unsplash.jpg" alt="Nachos">
+        <h3>Nachos</h3>
+        <p>Nachos.  PKR 400</p>
+    </div>
+    <div class="item">
+    <img src="C:\Users\user\OneDrive\Desktop\own web\tal-molcho-sJNrSTMsd5Y-unsplash.jpg" alt="Onion Rings">
+    <h3>Onion Rings</h3>
+    <p>Onion Rings.  PKR 350</p>
+    </div>
+    <div class="item">
+        <img src="C:\Users\user\OneDrive\Desktop\own web\scott-eckersley-R-7_ErUOLxw-unsplash.jpg" alt="Chicken Wings">
+        <h3>Chicken Wings</h3>
+        <p>Chicken Wings. PKR 600</p>
+    </div>
+</body>
+</html>
